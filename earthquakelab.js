@@ -36,3 +36,4 @@ Display a special animation for new earthquake points.
 There’s some animation functions as part of OpenLayers.
 Check out the Custom Animation example
 CSS animations also might come in handy.
+

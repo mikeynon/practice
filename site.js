@@ -36,3 +36,13 @@ Display a special animation for new earthquake points.
 There’s some animation functions as part of OpenLayers.
 Check out the Custom Animation example
 CSS animations also might come in handy.
+
+var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: -34.397, lng: 150.644},
+          zoom: 8
+        });
+      }
+
+map.data.addGeoJson(data);
